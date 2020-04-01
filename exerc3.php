@@ -67,7 +67,7 @@ $a2 -> acao();
 
 $a3 -> setNome("isa");
 $a3 -> setIdade(6);
-$a3 -> setSom("sla");
+$a3 -> setSom("balir");
 echo "Nome {$a3->nome}<br>";
 echo "Idade {$a3->idade}<br>";
 echo "Som {$a3->som}<br>";
