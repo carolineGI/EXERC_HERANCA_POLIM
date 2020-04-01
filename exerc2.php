@@ -45,33 +45,4 @@ class Preguica extends Animal{
   }
 }
 
-$a1 = new Cachorro;
-$a2 = new Cavalo;
-$a3 = new Preguica;
-
-$a1 -> setNome("bidu");
-$a1 -> setIdade(5);
-$a1 -> setSom("latir");
-echo "Nome {$a1->nome}<br>";
-echo "Idade {$a1->idade}<br>";
-echo "Som {$a1->som}<br>";
-$a1 -> acao();
-
-$a2 -> setNome("capitão");
-$a2 -> setIdade(10);
-$a2 -> setSom("relinchar");
-echo "Nome {$a2->nome}<br>";
-echo "Idade {$a2->idade}<br>";
-echo "Som {$a2->som}<br>";
-$a2 -> acao();
-
-$a3 -> setNome("isa");
-$a3 -> setIdade(6);
-$a3 -> setSom("sla");
-echo "Nome {$a3->nome}<br>";
-echo "Idade {$a3->idade}<br>";
-echo "Som {$a3->som}<br>";
-$a3 -> acao();
-
-
 ?>
